@@ -1,7 +1,7 @@
 {
-  "name": "presentation-es6-modules-performance-demo",
+  "name": "esm-vs-bundles",
   "version": "1.0.0",
-  "description": "Sample application for testing performance of es6 modules & http/2 vs. server side bundle",
+  "description": "Sample application for testing performance of es6 modules vs. server side bundling",
   "main": "main.js",
   "scripts": {
     "start": "http-server -c-1 -o",
