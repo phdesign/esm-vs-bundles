@@ -1,0 +1,17 @@
+{
+  "name": "presentation-es6-modules-performance-demo",
+  "version": "1.0.0",
+  "description": "Sample application for testing performance of es6 modules & http/2 vs. server side bundle",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -c-1 -o",
+    "build": "rollup -c"
+  },
+  "author": "Paul Heasley <paul.heasley@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.63.5",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rxjs": "^6.2.2"
+  }
+}
